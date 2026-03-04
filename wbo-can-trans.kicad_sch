@@ -5,10 +5,12 @@
 	(uuid "c245d160-8ba8-46ce-a269-d7f794b72d0d")
 	(paper "A4")
 	(title_block
-		(title "Polygonus Universal 88p")
-		(date "2023-11-12")
-		(rev "v1.0")
-		(company "FutureProofPerformance.com")
+		(title "FOME Universal 112 pin ECU base")
+		(date "2026-03-03")
+		(rev "v1.2")
+		(company "github.com/FOME-Tech")
+		(comment 1 "FutureProofPerformance.com")
+		(comment 2 "happycactusgarage.com")
 	)
 	(lib_symbols
 		(symbol "Device:C"

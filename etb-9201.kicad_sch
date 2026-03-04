@@ -5,10 +5,12 @@
 	(uuid "db5a506e-b381-4ccf-a36c-c2ecd3b8d0ea")
 	(paper "A4")
 	(title_block
-		(title "Polygonus Universal 88p")
-		(date "2023-11-12")
-		(rev "v1.0")
-		(company "FutureProofPerformance.com")
+		(title "FOME Universal 112 pin ECU base")
+		(date "2026-03-03")
+		(rev "v1.2")
+		(company "github.com/FOME-Tech")
+		(comment 1 "FutureProofPerformance.com")
+		(comment 2 "happycactusgarage.com")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -1320,15 +1322,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_ext" "0"
-			(at 68.58 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "9cdc7636-6576-465d-a5aa-28663606d6ac")
 		)
@@ -1779,24 +1772,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_ext" "1"
-			(at 97.79 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "possible_not_ext" "1"
-			(at 97.79 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3599b31a-af7e-45cb-b39a-222cd123a31e")
 		)
@@ -1992,15 +1967,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_ext" "0"
-			(at 114.3 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "af20d04e-3bd6-41ce-8438-f93183f4d912")
 		)
@@ -2075,15 +2041,6 @@
 			)
 		)
 		(property "LCSC" "C13585"
-			(at 80.645 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_ext" "0"
 			(at 80.645 46.99 0)
 			(effects
 				(font
@@ -2246,15 +2203,6 @@
 			)
 		)
 		(property "LCSC" "C1710"
-			(at 114.3 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_ext" "0"
 			(at 114.3 48.895 0)
 			(effects
 				(font

@@ -5,10 +5,12 @@
 	(uuid "78900880-d341-4a86-9988-a0d819373d20")
 	(paper "A4")
 	(title_block
-		(title "Polygonus Universal 88p")
-		(date "2023-11-12")
-		(rev "v1.0")
-		(company "FutureProofPerformance.com")
+		(title "FOME Universal 112 pin ECU base")
+		(date "2026-03-03")
+		(rev "v1.2")
+		(company "github.com/FOME-Tech")
+		(comment 1 "FutureProofPerformance.com")
+		(comment 2 "happycactusgarage.com")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -2035,15 +2037,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_ext" "0"
-			(at 103.505 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "34654827-7615-4786-9506-292004dd4cc2")
 		)
@@ -2247,15 +2240,6 @@
 			)
 		)
 		(property "LCSC" "C46653"
-			(at 118.11 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_ext" "0"
 			(at 118.11 85.09 0)
 			(effects
 				(font
@@ -2499,15 +2483,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_ext" "0"
-			(at 113.03 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a8da2145-5072-47f0-af46-4f6fa8f4a00f")
 		)
@@ -2530,7 +2505,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "53d394fd-9fda-4789-b6b3-9add904107e8")
 		(property "Reference" "R29"
 			(at 130.9878 85.09 90)
@@ -2540,7 +2515,7 @@
 				)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "~"
 			(at 125.73 85.09 90)
 			(effects
 				(font
@@ -2584,7 +2559,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "DNP"
+		(property "LCSC" ""
 			(at 125.73 85.09 0)
 			(effects
 				(font
@@ -3043,15 +3018,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_ext" "0"
-			(at 127 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f45b44af-16c2-458b-b1b8-08f2a9dd0170")
 		)
@@ -3122,15 +3088,6 @@
 			)
 		)
 		(property "LCSC" "C17673"
-			(at 165.735 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_ext" "0"
 			(at 165.735 79.375 0)
 			(effects
 				(font
@@ -3483,15 +3440,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_ext" "0"
-			(at 127 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0c8b015f-18bd-4697-8f8a-c4654d09848a")
 		)
@@ -3562,15 +3510,6 @@
 			)
 		)
 		(property "LCSC" "C28323"
-			(at 188.595 103.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_ext" "0"
 			(at 188.595 103.505 0)
 			(effects
 				(font
@@ -3664,15 +3603,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_ext" "0"
-			(at 103.505 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f69ee614-0f32-4853-8c82-4be338f0cf7b")
 		)
@@ -3741,15 +3671,6 @@
 			)
 		)
 		(property "LCSC" "C17513"
-			(at 127 103.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_ext" "0"
 			(at 127 103.505 0)
 			(effects
 				(font
@@ -3835,15 +3756,6 @@
 			)
 		)
 		(property "LCSC" "C17673"
-			(at 113.03 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_ext" "0"
 			(at 113.03 80.01 0)
 			(effects
 				(font
