@@ -696,7 +696,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NGD8201AN"
+		(property "Value" "FGD3040G2-F085"
 			(at 176.7586 135.763 0)
 			(effects
 				(font
@@ -732,7 +732,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151649"
+		(property "LCSC" "C606124"
 			(at 181.61 134.62 0)
 			(effects
 				(font
@@ -778,7 +778,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NGD8201AN"
+		(property "Value" "FGD3040G2-F085"
 			(at 217.424 77.343 0)
 			(effects
 				(font
@@ -814,7 +814,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151649"
+		(property "LCSC" "C606124"
 			(at 222.25 76.2 0)
 			(effects
 				(font
@@ -860,7 +860,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NGD8201AN"
+		(property "Value" "FGD3040G2-F085"
 			(at 176.7586 48.133 0)
 			(effects
 				(font
@@ -896,7 +896,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151649"
+		(property "LCSC" "C606124"
 			(at 181.61 46.99 0)
 			(effects
 				(font
@@ -1010,7 +1010,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NGD8201AN"
+		(property "Value" "FGD3040G2-F085"
 			(at 176.7586 106.553 0)
 			(effects
 				(font
@@ -1046,7 +1046,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151649"
+		(property "LCSC" "C606124"
 			(at 181.61 105.41 0)
 			(effects
 				(font
@@ -1092,7 +1092,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NGD8201AN"
+		(property "Value" "FGD3040G2-F085"
 			(at 176.7586 77.343 0)
 			(effects
 				(font
@@ -1128,7 +1128,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151649"
+		(property "LCSC" "C606124"
 			(at 181.61 76.2 0)
 			(effects
 				(font
@@ -1378,7 +1378,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NGD8201AN"
+		(property "Value" "FGD3040G2-F085"
 			(at 217.424 106.553 0)
 			(effects
 				(font
@@ -1414,7 +1414,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151649"
+		(property "LCSC" "C606124"
 			(at 222.25 105.41 0)
 			(effects
 				(font
@@ -1460,7 +1460,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NGD8201AN"
+		(property "Value" "FGD3040G2-F085"
 			(at 217.424 48.133 0)
 			(effects
 				(font
@@ -1496,7 +1496,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151649"
+		(property "LCSC" "C606124"
 			(at 222.25 46.99 0)
 			(effects
 				(font
@@ -1610,7 +1610,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NGD8201AN"
+		(property "Value" "FGD3040G2-F085"
 			(at 217.424 135.763 0)
 			(effects
 				(font
@@ -1646,7 +1646,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C151649"
+		(property "LCSC" "C606124"
 			(at 222.25 134.62 0)
 			(effects
 				(font

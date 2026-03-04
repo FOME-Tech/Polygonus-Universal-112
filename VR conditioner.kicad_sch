@@ -2268,7 +2268,7 @@
 		(at 173.355 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "38c8f4bf-7da4-4ddf-9b99-e5b84c691b4b")
@@ -2503,7 +2503,7 @@
 		(at 125.73 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "53d394fd-9fda-4789-b6b3-9add904107e8")
@@ -2654,9 +2654,9 @@
 		(at 140.335 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5af0d30c-6014-45c7-904e-dd48543056b3")
 		(property "Reference" "R32"
 			(at 140.335 112.395 90)
@@ -3482,7 +3482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 189.5602 107.315 0)
 			(effects
 				(font
@@ -3509,7 +3509,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C1525"
 			(at 188.595 103.505 0)
 			(effects
 				(font
@@ -3784,9 +3784,9 @@
 		(at 156.21 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fc2b106d-3a0a-423b-936f-266418c3661b")
 		(property "Reference" "R33"
 			(at 156.21 112.395 90)

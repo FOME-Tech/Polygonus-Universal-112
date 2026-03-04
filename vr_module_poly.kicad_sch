@@ -6919,7 +6919,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C87403"
+		(property "LCSC" "C36533657"
 			(at 163.83 35.56 0)
 			(effects
 				(font
@@ -7016,7 +7016,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C87403"
+		(property "LCSC" "C36533657"
 			(at 199.39 33.02 0)
 			(effects
 				(font
@@ -7111,7 +7111,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C87403"
+		(property "LCSC" "C36533657"
 			(at 163.83 105.41 0)
 			(effects
 				(font
@@ -7207,7 +7207,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C87403"
+		(property "LCSC" "C36533657"
 			(at 213.36 33.02 0)
 			(effects
 				(font
