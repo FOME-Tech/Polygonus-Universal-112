@@ -1337,6 +1337,86 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Simon:Molex_112_643330100"
 			(pin_names
 				(offset 1.016)
@@ -10637,6 +10717,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "16p header\nplacement markers"
+		(exclude_from_sim no)
+		(at 230.505 197.485 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "088cd968-5341-41db-a9e1-96d28e7d6071")
+	)
 	(text "PIN FUNCTIONS\n\n12V_KEY - Connect to ignition switch. Powers internal ECU logic.\n12V_MR - Power input from the ECU-controlled main relay.\n12V_MR_FUSE - Internally-fused 12V power output for sensors etc\nPERM_LIVE - 12v permanent battery connection, keeps clock running while powered off.\n5V_SENSOR - 5V supply output for ECU sensors\n\nLS1-8, LS13-16 - Medium power low-side outputs, no diode (injectors, relays, etc)\nLS9-12, A-D - High power low-side outputs with freewheel diode (VVT, Idle, PWM solenoids, etc)\nHS1-4 - Medium power high side outputs"
 		(exclude_from_sim no)
 		(at 300.99 241.3 0)
@@ -10669,6 +10759,16 @@
 			(justify right bottom)
 		)
 		(uuid "7640771e-5b32-4b09-8ee1-321e423562a0")
+	)
+	(text "5p header\nplacement markers"
+		(exclude_from_sim no)
+		(at 261.62 197.485 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f620163-8013-437e-960d-d0d60cf258da")
 	)
 	(text "RSVD"
 		(exclude_from_sim no)
@@ -10795,6 +10895,16 @@
 			(type default)
 		)
 		(uuid "082bfc7e-12ba-47b8-86a2-236a96081434")
+	)
+	(polyline
+		(pts
+			(xy 276.225 193.04) (xy 276.225 207.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "083b8688-54fa-4ea1-a62c-5775cbc1836f")
 	)
 	(wire
 		(pts
@@ -11116,6 +11226,16 @@
 		)
 		(uuid "31651e01-ffde-4777-b803-25b7bd0d5c89")
 	)
+	(polyline
+		(pts
+			(xy 276.225 207.645) (xy 247.015 207.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31720cb1-6145-4e24-ae0c-91a119c26790")
+	)
 	(wire
 		(pts
 			(xy 184.15 66.04) (xy 184.15 78.74)
@@ -11135,6 +11255,16 @@
 			(type default)
 		)
 		(uuid "328024a8-2eff-4757-b8c0-2d797ec034a9")
+	)
+	(polyline
+		(pts
+			(xy 247.015 193.04) (xy 276.225 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379f9263-e93b-4d8a-84fc-caff3305a7ae")
 	)
 	(wire
 		(pts
@@ -11455,6 +11585,16 @@
 			(type default)
 		)
 		(uuid "6cd79464-2a64-4fd0-b101-79ccd38dc41f")
+	)
+	(polyline
+		(pts
+			(xy 245.745 193.04) (xy 245.745 217.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f03a071-3381-4c5f-85a7-c103ca1f94cb")
 	)
 	(wire
 		(pts
@@ -11866,6 +12006,16 @@
 		)
 		(uuid "a02ae9d2-d563-4b0d-81d0-480e16df17b3")
 	)
+	(polyline
+		(pts
+			(xy 245.745 217.805) (xy 216.535 217.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a08fea07-9f4b-454f-b193-901a8eba23c1")
+	)
 	(wire
 		(pts
 			(xy 299.72 78.74) (xy 299.72 66.04)
@@ -11905,6 +12055,16 @@
 			(type default)
 		)
 		(uuid "a472e8d8-e85c-4068-911f-d4d41bb00e49")
+	)
+	(polyline
+		(pts
+			(xy 247.015 193.04) (xy 247.015 207.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8e7cbf0-7d8e-48bd-b434-6e46d0c824c0")
 	)
 	(wire
 		(pts
@@ -12005,6 +12165,16 @@
 			(type default)
 		)
 		(uuid "c01993de-0d48-4da6-bb10-8c17746cca0e")
+	)
+	(polyline
+		(pts
+			(xy 216.535 193.04) (xy 216.535 217.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c51f7b0b-240d-4fb9-89c0-b03bea9408ad")
 	)
 	(wire
 		(pts
@@ -12125,6 +12295,16 @@
 			(type default)
 		)
 		(uuid "e07da985-1bee-40fc-90f8-686c1ea0b2e4")
+	)
+	(polyline
+		(pts
+			(xy 216.535 193.04) (xy 245.745 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8e3294d-c05c-4588-8d26-332cd461b9c1")
 	)
 	(wire
 		(pts
@@ -16472,6 +16652,152 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 220.98 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e4ed374-30c5-44a6-9949-ad9f6015442e")
+		(property "Reference" "J8"
+			(at 223.52 212.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P1x16"
+			(at 223.52 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "header_placement:header_loc"
+			(at 220.98 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x16 pin socket"
+			(at 220.98 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C350305"
+			(at 220.98 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Polygonus-Universal-Base"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 233.68 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53638098-7a39-4afe-8974-99b965ac4099")
+		(property "Reference" "J11"
+			(at 236.22 212.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P1x16"
+			(at 236.22 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "header_placement:header_loc"
+			(at 233.68 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x16 pin socket"
+			(at 233.68 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C350305"
+			(at 233.68 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Polygonus-Universal-Base"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 57.15 78.74 0)
@@ -16606,6 +16932,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 233.68 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5564a73f-d2ab-44da-97d7-8a79d8fc8de5")
+		(property "Reference" "J10"
+			(at 236.22 207.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P1x16"
+			(at 236.22 209.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "header_placement:header_loc"
+			(at 233.68 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x16 pin socket"
+			(at 233.68 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C350305"
+			(at 233.68 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Polygonus-Universal-Base"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 46.99 78.74 0)
@@ -16734,6 +17133,79 @@
 			(project "Polygonus-Universal-Base"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 233.68 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "678cdd2a-d51c-41ff-bf24-356ba28e659a")
+		(property "Reference" "J9"
+			(at 236.22 201.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P1x16"
+			(at 236.22 204.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "header_placement:header_loc"
+			(at 233.68 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x16 pin socket"
+			(at 233.68 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C350305"
+			(at 233.68 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Polygonus-Universal-Base"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -17796,6 +18268,225 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 252.095 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ecc374f-2888-4c92-b645-c03b35fe27b5")
+		(property "Reference" "J12"
+			(at 254.635 201.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P1x5"
+			(at 254.635 204.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "header_placement:header_loc"
+			(at 252.095 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.095 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x5 pin socket"
+			(at 252.095 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C50950"
+			(at 252.095 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Polygonus-Universal-Base"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 264.795 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a02954fd-f747-4fe2-83ab-b323939a5614")
+		(property "Reference" "J13"
+			(at 267.335 201.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P1x5"
+			(at 267.335 204.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "header_placement:header_loc"
+			(at 264.795 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.795 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x5 pin socket"
+			(at 264.795 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C50950"
+			(at 264.795 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Polygonus-Universal-Base"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 220.98 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3db4378-645b-4755-8398-bc17db0d2b8e")
+		(property "Reference" "J6"
+			(at 223.52 201.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P1x16"
+			(at 223.52 204.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "header_placement:header_loc"
+			(at 220.98 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x16 pin socket"
+			(at 220.98 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C350305"
+			(at 220.98 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 49.53 78.74 0)
@@ -18182,7 +18873,7 @@
 		(at 264.16 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b99a210c-6465-4de3-89e9-0e242a93c687")
@@ -20093,6 +20784,79 @@
 			(project "Polygonus-Universal-Base"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 220.98 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa78b9ee-1608-4d8f-acfa-957e80ab2a24")
+		(property "Reference" "J7"
+			(at 223.52 207.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P1x16"
+			(at 223.52 209.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "header_placement:header_loc"
+			(at 220.98 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x16 pin socket"
+			(at 220.98 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C350305"
+			(at 220.98 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Polygonus-Universal-Base"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J7")
 					(unit 1)
 				)
 			)
