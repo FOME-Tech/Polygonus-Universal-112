@@ -1,0 +1,3 @@
+[submodule "fome-kicad-libs"]
+	path = fome-kicad-libs
+	url = https://github.com/FOME-Tech/kicad-libraries
