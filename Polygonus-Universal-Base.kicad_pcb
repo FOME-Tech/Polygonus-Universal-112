@@ -2277,7 +2277,7 @@
 		(path "/bd7dbed2-53d4-417c-9458-85252bdbb186")
 		(sheetname "/")
 		(sheetfile "Polygonus-Universal-Base.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.659698 -2.315)
 			(end -1.859698 -2.315)
@@ -12832,7 +12832,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C17513"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18502,7 +18502,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C17513"
 			(at 335.34321 210.355366 0)
 			(layer "F.Fab")
 			(hide yes)
