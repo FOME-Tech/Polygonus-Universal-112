@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "wideband_module")(type "KiCad")(uri "${KIPRJMOD}/wideband_module.pretty")(options "")(descr ""))
   (lib (name "header_placement")(type "KiCad")(uri "${KIPRJMOD}/header_placement.pretty")(options "")(descr ""))
+  (lib (name "fome_modules")(type "KiCad")(uri "${KIPRJMOD}/fome-kicad-libs/fome_modules.pretty")(options "")(descr ""))
 )
