@@ -7063,7 +7063,7 @@
 			)
 		)
 	)
-	(footprint "wideband_module:f042_wideband_module"
+	(footprint "fome_modules:f042_wideband_module"
 		(layer "F.Cu")
 		(uuid "30b75c17-c431-477f-b57d-7d2f79176f36")
 		(at 190.269349 141.724815 90)
@@ -7071,7 +7071,6 @@
 			(at 12.7 18.415 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "e7f58f86-fea5-4be9-a642-8d1ed663a6f4")
 			(effects
 				(font
@@ -7084,7 +7083,6 @@
 			(at 12.7 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "6a75ffd3-d543-42bb-81d3-0fcba5a2e554")
 			(effects
 				(font
@@ -7120,7 +7118,7 @@
 		(path "/b732e223-ab54-42e7-b254-efa3f9f268fb")
 		(sheetname "/")
 		(sheetfile "Polygonus-Universal-Base.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole)
 		(fp_rect
 			(start -1.905 -1.905)
 			(end 27.305 19.685)
@@ -7130,7 +7128,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "be695a78-22e0-4d20-b9a1-4b384ff52e91")
+			(uuid "b12651fd-698c-436b-858b-5963a4e2be58")
 		)
 		(fp_rect
 			(start 1.524 1.905)
@@ -7141,7 +7139,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "07d87906-27b6-4dbf-bcf7-ca57320b6f54")
+			(uuid "fb3bd916-a7dd-4cc6-85f2-b92ddb3a8106")
 		)
 		(fp_rect
 			(start 24.13 -1.27)
@@ -7152,7 +7150,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "11799ee4-a153-40bc-b91e-8f673755461d")
+			(uuid "c4072502-31d2-415e-ab15-454abb2666de")
 		)
 		(fp_rect
 			(start -1.27 -1.27)
@@ -7163,7 +7161,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "24849b71-3b81-4da4-9c73-f8c2a72f648d")
+			(uuid "dcad8cdd-2885-4cd0-b361-cdcf9375a49e")
 		)
 		(fp_rect
 			(start -1.27 -1.27)
@@ -7174,7 +7172,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "1233cd90-d412-4a0e-bc0c-cf4b7005c358")
+			(uuid "b3b02388-209a-428d-80ec-a05fbe6b8061")
 		)
 		(fp_rect
 			(start 24.13 19.05)
@@ -7185,7 +7183,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "9d147a12-01ad-452a-95c9-356fcbb8268a")
+			(uuid "594a9454-e59c-4b7c-b895-7270a71908ef")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 12.7 18.415 90)
@@ -20374,7 +20372,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3.0x3.0mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*")
-		(path "/fb009e65-a9a4-468e-a2ae-bdcc6f13b5d3/00000000-0000-0000-0000-00005ff8949e")
+		(path "/fb009e65-a9a4-468e-a2ae-bdcc6f13b5d3/00000000-0000-0000-0000-00005ff885e6")
 		(sheetname "/VR Module/")
 		(sheetfile "vr_module_poly.kicad_sch")
 		(attr smd)
@@ -33681,7 +33679,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "wideband_module:f042_wideband_module"
+	(footprint "fome_modules:f042_wideband_module"
 		(layer "F.Cu")
 		(uuid "e647f0b9-745b-495a-9579-d2810ff77e09")
 		(at 61.611115 135.011435 90)
@@ -33689,7 +33687,6 @@
 			(at 12.7 18.415 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "e096faa4-380c-48d3-8d9b-56afaf6a7813")
 			(effects
 				(font
@@ -33702,7 +33699,6 @@
 			(at 12.7 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "9d4a6d00-fce1-4d5b-8d2d-2600edf00926")
 			(effects
 				(font
@@ -33738,7 +33734,7 @@
 		(path "/988855b9-1be7-47c3-9b0f-2ae3aeb35f7c")
 		(sheetname "/")
 		(sheetfile "Polygonus-Universal-Base.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole)
 		(fp_rect
 			(start -1.905 -1.905)
 			(end 27.305 19.685)
@@ -33748,7 +33744,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "5549a54f-9e77-4f9e-ab62-9fe8100d3d6d")
+			(uuid "2995fbe4-7913-4e53-a3b3-8980d693ff63")
 		)
 		(fp_rect
 			(start 1.524 1.905)
@@ -33759,7 +33755,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "3e0318c4-b0e9-4fc4-a6df-08109d7a5c14")
+			(uuid "2db2f742-ef9e-46a0-a363-f5921cd76cbe")
 		)
 		(fp_rect
 			(start 24.13 -1.27)
@@ -33770,7 +33766,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "416a4f16-f2e0-4552-9682-f2eb0853577d")
+			(uuid "d012946e-2a22-4991-a1cb-bd9a25f164d7")
 		)
 		(fp_rect
 			(start -1.27 -1.27)
@@ -33781,7 +33777,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "a46b7fb8-7cb4-41db-baa7-68c99fa7984d")
+			(uuid "e90c1625-b42d-4df1-a0dc-f3d89b42107d")
 		)
 		(fp_rect
 			(start -1.27 -1.27)
@@ -33792,7 +33788,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "8751a627-9e41-4c3e-8994-5979549da0d6")
+			(uuid "c504b64f-cea2-425b-9db9-94090394fd95")
 		)
 		(fp_rect
 			(start 24.13 19.05)
@@ -33803,7 +33799,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "6178c965-a901-40da-8a26-7c325a95753e")
+			(uuid "057b641c-7199-4b28-a168-3a8f50b88d79")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 12.7 18.415 90)

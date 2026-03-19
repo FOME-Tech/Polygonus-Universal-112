@@ -6243,7 +6243,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U2"
+			(property "Reference" "U"
 				(at 2.1941 16.51 0)
 				(effects
 					(font
@@ -6261,7 +6261,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "wideband_module:f042_wideband_module"
+			(property "Footprint" "fome_modules:f042_wideband_module"
 				(at -7.62 -16.51 0)
 				(effects
 					(font
@@ -18059,7 +18059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "wideband_module:f042_wideband_module"
+		(property "Footprint" "fome_modules:f042_wideband_module"
 			(at 170.18 248.92 0)
 			(effects
 				(font
@@ -18728,7 +18728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "wideband_module:f042_wideband_module"
+		(property "Footprint" "fome_modules:f042_wideband_module"
 			(at 106.68 248.92 0)
 			(effects
 				(font
