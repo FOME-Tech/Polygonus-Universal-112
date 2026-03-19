@@ -18895,7 +18895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Simon:Polygonus-With-USB-SWD"
+		(property "Footprint" "Simon:Polygonus_Plugs"
 			(at 246.38 142.24 0)
 			(effects
 				(font
