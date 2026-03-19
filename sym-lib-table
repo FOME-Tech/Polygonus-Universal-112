@@ -2,5 +2,5 @@
   (version 7)
   (lib (name "Wideband")(type "KiCad")(uri "${KIPRJMOD}/wideband_module.kicad_sym")(options "")(descr ""))
   (lib (name "Simon")(type "KiCad")(uri "${KIPRJMOD}/fome-kicad-libs/Simon.kicad_sym")(options "")(descr ""))
-  (lib (name "polygonus_module")(type "KiCad")(uri "${KIPRJMOD}/fome-kicad-libs/polygonus_module.kicad_sym")(options "")(descr ""))
+  (lib (name "fome_modules")(type "KiCad")(uri "${KIPRJMOD}/fome-kicad-libs/fome_modules.kicad_sym")(options "")(descr ""))
 )
